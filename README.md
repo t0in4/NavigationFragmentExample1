@@ -16,16 +16,25 @@ dependencies {
         }
         
 * at build.gradle (app level)
+
 plugins {
+
     id 'kotlin-kapt'
+    
     id "androidx.navigation.safeargs"
+    
     }
     
-* add at android in build.gradle (app level)    
+* add at android in build.gradle (app level)   
+ 
 android {
+
     buildFeatures {
+    
         dataBinding true
+        
     }
+    
     }
     
 * Then will be changes in both fragments - look at DetailFragment.kt and ListFragment.kt
