@@ -38,7 +38,8 @@ android {
     }
     
 * Then will be changes in both fragments - look at DetailFragment.kt and ListFragment.kt
-and in MainActivity.kt - we will use supportFragmentManager
+
+* and in MainActivity.kt - we will use supportFragmentManager
     
     
     
