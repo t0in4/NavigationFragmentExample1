@@ -6,9 +6,13 @@ pay attention to change in
 * build.gradle (project level)
 
 dependencies {
+
         classpath "com.android.tools.build:gradle:7.0.3" (change 7.0.4 to 7.0.3 - bcz 7.0.4 have problems to work with dataBinding)
+        
         def nav_version = "2.4.1"
+        
         classpath("androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version")  (add navigation-safe-args-gradle-plugin)
+        
         }
         
 * at build.gradle (app level)
